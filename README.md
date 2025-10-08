@@ -20,6 +20,5 @@ DiGSA (Dictionary-Guided Sparse Attack) generates sparse, low-ℓ₂ adversarial
 3. Run the full pipeline: `python main.py`
 
 **Notes**
-- The code is a direct refactor; it preserves behavior from the single-file version.
 - Large computations (training, dictionary learning, saving many images) may take time and disk space.
 - You may want to run fewer epochs or smaller samples during testing.
