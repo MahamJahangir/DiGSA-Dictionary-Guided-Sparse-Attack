@@ -1,8 +1,6 @@
 # DiGSA (Dictionary-Guided Sparse Attack)
 
-This repository contains a refactored version of a MNIST-based adversarial pipeline.
-The original single-file script was split into modular Python files without changing
-the underlying logic or algorithms.
+DiGSA (Dictionary-Guided Sparse Attack) generates sparse, low-ℓ₂ adversarial examples using feature maps and dictionary learning. It creates fast, one-shot perturbations that highlight key image regions, achieving competitive results with reduced computation and strong resistance against defense strategies.
 
 ## Contents
 - `data.py` - MNIST loading and preprocessing functions
