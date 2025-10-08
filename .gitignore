@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pkl
+.DS_Store
+maps/
+100-1TSparsePerturbations/
+my_checkpoint
